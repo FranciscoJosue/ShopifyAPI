@@ -1,13 +1,13 @@
 import requests
 import base64
 
-api_key = 'b4c290c7e9d9fcc74b3a08aa553789e0'
-password = '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'
-shop_url = 'totvs-tbne-le-loyn-comercio-de-cosmeticos-ltda.myshopify.com'
+api_key = 'api_key'
+password = 'password'
+shop_url = 'shop_url.myshopify.com'
 
 upload_url = f'https://{api_key}:{password}@{shop_url}/admin/api/2022-01/'
 
-image_path = 'C:/Users/Win/Pictures/TesteShopify/8011003838400_2.jpg'
+image_path = 'Caminho/do/produto.jpg'
 
 with open(image_path, 'rb') as image_file:
     encoded_image = base64.b64encode(image_file.read()).decode('utf-8')

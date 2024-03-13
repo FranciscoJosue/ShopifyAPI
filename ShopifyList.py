@@ -1,9 +1,9 @@
 import requests
 import json
 
-api_key = 'b4c290c7e9d9fcc74b3a08aa553789e0'
-password = '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'
-shop_url = 'totvs-tbne-le-loyn-comercio-de-cosmeticos-ltda.myshopify.com'
+api_key = 'api_key'
+password = 'password'
+shop_url = 'shop_url.myshopify.com'
 
 url = f'https://{api_key}:{password}@{shop_url}/admin/api/2022-01/products.json'
 
